@@ -1,3 +1,5 @@
+#include <RPLidar.h>
+RPLidar lidar;
 
 #define no_obj  27
 #define obj_c   26
@@ -9,8 +11,7 @@
 
 const int rxPin = 3;  // GPIO 3 for RX
 const int txPin = 1;  // GPIO 1 for TX
-#include <RPLidar.h>
-RPLidar lidar;
+
 volatile int count = 0;
 volatile int count_1 = 0;
 volatile int count_2 = 0;
