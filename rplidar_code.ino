@@ -6,7 +6,7 @@
 #define obj_C   34
 #define obj_L   32
 #define obj_R   35
-//Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+
 const int rxPin = 3;  // GPIO 3 for RX
 const int txPin = 1;  // GPIO 1 for TX
 #include <RPLidar.h>
